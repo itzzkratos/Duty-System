@@ -1,5 +1,10 @@
 local dutyBlips = {}
 
+CreateThread(function()
+    TriggerEvent('chat:addSuggestion', '/clockin', 'Go on duty as your department', {{ name="department", help="The Department example: BCSO"}, { name="callsign", help="Your Assigned Callsign example: 1X-01"}})
+    TriggerEvent('chat:addSuggestion', '/clockout', 'Go on duty as your department')
+end)
+
 RegisterNetEvent('createDutyBlip')
 AddEventHandler('createDutyBlip', function(department, badgeNumber, callsign)
     local playerPed = PlayerPedId()

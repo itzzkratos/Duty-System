@@ -2,6 +2,13 @@
 
 This FiveM duty system allows players to clock in and out while keeping track of their duty time. Designed for role-playing servers, it integrates seamlessly with Discord for notifications and logging.
 
+# Script Install
+
+- Drag and drop the script **Duty-System** into your resources
+- Ensure the resoure in your server.cfg **"ensure Duty-System"**
+- Configure Script! Head over to server_config.lua and set it up to your liking
+- If you have a issue or need any support with this script, head over to our Discord - https://discord.gg/zJHHJhwQ
+
 ## Features:
 - **Clock In/Out**: Players can easily start and end their duty shifts.
 - **Duty Notifications**: Automatic messages sent to a specified Discord channel when players clock in or out.
